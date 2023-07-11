@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+// Primary
+
+// Neutral
+
+// Gradients
+
+// Widths
+$width-mobile: 375px;
+$width-desktop: 1440px;
+
+$paragraph-default: 15px;
+
+// Font weights
+$font-weight--medium: 500;
+$font-weight--bold: 700;
+$font-weight--extraBold: 800;
+
+@mixin flexCenter($direction: row) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+}
