@@ -1,20 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap");
 
 // Primary
+$cyan-light: hsl(193, 38%, 86%);
+$green-neon: hsl(150, 100%, 66%);
 
 // Neutral
-
-// Gradients
+$blue-grayish: hsl(217, 19%, 38%);
+$blue-darkGrayish: hsl(217, 19%, 24%);
+$blue-dark: hsl(218, 23%, 16%);
 
 // Widths
 $width-mobile: 375px;
 $width-desktop: 1440px;
 
-$paragraph-default: 15px;
+// Typography
+$manrope: "Manrope", sans-serif;
+$quote: 28px;
 
 // Font weights
-$font-weight--medium: 500;
-$font-weight--bold: 700;
+$font-weight--regular: 500;
 $font-weight--extraBold: 800;
 
 @mixin flexCenter($direction: row) {
