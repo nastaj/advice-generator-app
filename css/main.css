@@ -82,6 +82,9 @@ select {
 body {
   font-family: "Manrope", sans-serif;
   background-color: hsl(218, 23%, 16%);
+}
+
+.container {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -137,6 +140,18 @@ main .generate-btn:hover {
 }
 main .generate-btn:active {
   transform: scale(0.7);
+}
+
+.attribution {
+  background-color: hsl(217, 19%, 38%);
+  color: hsl(193, 38%, 86%);
+  padding: 1.6rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(150, 100%, 66%);
 }
 
 @media (min-width: 601px) {

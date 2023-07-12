@@ -4,6 +4,9 @@
 body {
   font-family: $manrope;
   background-color: $blue-dark;
+}
+
+.container {
   min-height: 100vh;
   @include flexCenter(column);
 }
@@ -62,6 +65,20 @@ main {
   }
 }
 
+// Attribution
+.attribution {
+  background-color: $blue-grayish;
+  color: $cyan-light;
+  padding: 1.6rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: $green-neon;
+}
+
+// Media queries
 @media (min-width: 601px) {
   .divider-mobile {
     display: none;
